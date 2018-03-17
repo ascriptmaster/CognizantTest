@@ -1,0 +1,9 @@
+Question 1
+
+Thread contention is a condition where code execution is slowed due to multiple threads contending for the same  resource, generally through a lock. It can generally be avoided by reducing the amount of code executed while a thread holds a lock, increasing the number of locks so that they each cover a smaller area of non-overlapping data (lock striping), and avoiding relying on a single variable that is modified by many threads if possible.
+
+---------------------------
+
+Question 3
+
+A heap sort is a sorting method that involves rearranging a list of values to satisfy the heap property, and then taking advantage of the heap structure to build the list by repeatedly removing the largest value from the heap.
